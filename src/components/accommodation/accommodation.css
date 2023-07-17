@@ -1,0 +1,19 @@
+.accommodation-container {
+    height: 100%;
+}
+
+.rooms {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 1070px) {
+    .navegacaoMenu {
+        flex-direction: column;
+    }
+
+    .navegacaoConteudo {
+        width: 100%;
+    }
+}

@@ -1,0 +1,45 @@
+.site-presentation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.site-presentation-descricao {
+    width: 500px;
+    color: #fff;
+    font-size: 23px;
+    background-color: #0a9077b3;
+    border-radius: 10px;
+    padding: 0 20px;
+    text-align: center;
+
+    z-index: 10;
+}
+
+.site-presentation-descricao p {
+    font-size: 21px;
+    color: #fff;
+}
+
+.site-presentation-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+.site-presentation-video video {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 480px) {
+    .site-presentation {
+        height: 550px;
+    }
+
+    .site-presentation-descricao, .site-presentation-descricao p {
+        font-size: 15px;
+    }
+}

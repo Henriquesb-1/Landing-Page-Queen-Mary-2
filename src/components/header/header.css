@@ -1,0 +1,51 @@
+/*CSS Topo*/
+.header-container {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    background-color: black;
+    border-bottom: 1px solid blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    padding: 0 10px;
+    margin: 0 auto;
+} 
+
+.header-icon a img {
+    width: 130px;
+    height:90px;
+    border-radius: 80px;
+    padding-right: 0;
+}
+
+.navegation nav button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgba(32, 32, 119, 1);
+    color: #fff;
+    width: 120px;
+    height: 50px;
+
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+.navegation nav button:hover {
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(0, 110, 96);
+    background-color: rgba(42, 42, 139, 1);
+    border: 1px solid rgb(20, 130, 116);
+    width: 130px;
+    height: 60px;
+}
+
+.navegation nav button:disabled {
+    background-color: rgba(32, 32, 119, .5);
+}

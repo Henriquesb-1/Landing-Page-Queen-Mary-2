@@ -1,0 +1,15 @@
+.carousel-container {
+    position: relative;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+
+    display: grid;
+    place-items: center;
+    height: 100%;
+
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .7s;
+}
