@@ -10,25 +10,20 @@ import HomeTemplate from './components/home/Home';
 interface items {
   id: number;
   name: string;
-  current: boolean;
 }
 
 const itemsToShow: items[] = [{
   id: 0,
-  name: "Início",
-  current: true
+  name: "Início"
 }, {
   id: 1,
-  name: "História e características",
-  current: false
+  name: "História e características"
 }, {
   id: 2,
-  name: "Acomodações",
-  current: false
+  name: "Acomodações"
 }, {
   id: 3,
-  name: "Atrações",
-  current: false
+  name: "Atrações"
 }]
 
 export default function QM2() {
