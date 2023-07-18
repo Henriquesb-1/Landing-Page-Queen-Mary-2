@@ -49,3 +49,9 @@
 .navegation nav button:disabled {
     background-color: rgba(32, 32, 119, .5);
 }
+
+@media screen and (max-width: 468px) {
+    .nav-info {
+        display: none;
+    }
+}
