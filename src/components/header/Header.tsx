@@ -22,7 +22,7 @@ export default function Header({ onClick, currentContentId, previousItem, nextIt
                 <div className="navegation">
                     <nav>
                         <button title={`Go to ${previousItem}`} onClick={() => onClick("up")} disabled={cantGoUp}>
-                            {previousItem}
+                            <span className="nav-info">{previousItem}</span>
                             {cantGoUp ? <></> : <img src={up} alt="Previous section arrow" />}
                         </button>
                     </nav>
@@ -37,7 +37,7 @@ export default function Header({ onClick, currentContentId, previousItem, nextIt
                 <div className="navegation">
                     <nav>
                         <button title={`Go to ${nextItem}`} onClick={() => onClick("down")} disabled={cantGoDown}>
-                            {nextItem}
+                            <span className="nav-info">{nextItem}</span>
                             {cantGoDown ? <></> : <img src={down} alt="Next section arrow" />}
                         </button>
                     </nav>
